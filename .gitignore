@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/public/mix-manifest.json
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/public/mix-manifest.json
+npm-debug.log
+.phpstorm.meta.php
+_ide_helper.php
+/storage/oauth-private.key
+/storage/oauth-public.key
+/package-lock.json
+/.vscode

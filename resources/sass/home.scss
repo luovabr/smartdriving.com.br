@@ -1,0 +1,878 @@
+
+// Public
+@import "public";
+
+// Share.js
+@import "~social-share.js/src/css/share.scss";
+
+// Select 2
+@import url("vendor/select2.min.css");
+
+// Markdown
+@import "markdown";
+@import url("vendor/highlight.min.css");
+
+@import "form";
+@import "navbar";
+@import "pagination";
+@import "togglebutton";
+@import "toastr";
+@import "comment";
+@import "styles";
+
+body
+{
+    font-family: 'Formular', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2; 
+    color: #121212;
+    background: #fff;
+}
+
+.bg-app{
+	background-image: url('/images/app-Element-screen.png');  
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-atlas{
+	background-image: url('/images/Atlas-desktop.jpg');  background-position: 50% 50%; box-shadow: none; border-radius: 10px; opacity: 1;
+}
+.bg-road-bridge {
+  width:100%;
+  min-height:961px;
+	background-image: url('/images/road-bridge.jpg'); 
+	background-position: 50% 50%; 
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+.bg-fleet {
+  width:100%;
+  min-height: 650px;
+	background-image: url('/images/gestao-de-frota-capa.png'); 
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+.bg-maker {
+  width:100%;
+  min-height:961px;
+  background-image: url('/images/car-maker.jpg'); 
+	background-position: 50% 50%; 
+  background-size: auto 100%;
+	background-repeat: no-repeat;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+.bg-dealer {
+  width:100%;
+  min-height:961px;
+  background-image: url('/images/dealer.jpg'); 
+	background-position: 50% 50%; 
+  background-size: auto 100%;
+	background-repeat: no-repeat;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+.bg-car-red {
+	height:961px;
+	background-image: url('/images/car-home-red.jpg'); 
+	background-position: 50% 50%; 
+	background-repeat: no-repeat;
+  box-shadow: none; 
+  background-size:100% ;
+	border-radius: 0px; 
+	opacity: 1;
+}
+// newsroom
+.bg-lada{
+	background-image: url('/images/lada-connect.jpg');  
+	background-position: 50% 50%;
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-rally{
+	background-image: url('/images/rally1.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-premio-rally{
+	background-image: url('/images/rally2.jpg');  
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1
+}
+.bg-exame{
+	background-image: url('/images/exame_rally.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+
+.bg-estadao{
+	background-image: url('/images/estadao.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-fastcompany{
+	background-image: url('/images/fastcompany.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-uol{
+	background-image: url('/images/uol.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-folha{
+	background-image: url('/images/folha.jpg'); 
+	background-size:100% auto; 
+	background-position: 50% 50%; 
+	box-shadow: none; 
+	border-radius: 10px; 
+	opacity: 1;
+}
+.bg-wave {
+  height:327px;
+  width:100%;
+	background-image: url('/images/waves.png'); 
+	background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  background-size:100%;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+
+.bg-about {
+  width:100%;
+  min-height:500px;
+  background-image: url('/images/about-sp.jpg'); 
+  background-size: 100%;
+	background-repeat: no-repeat;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+.box-newsroom{
+	width:194px;height:256px;
+	background-size:101% auto;
+}
+.box-modal{
+	height:600px;
+	background-size:100% auto;
+}
+.footer-text{
+	font-size: 13px; line-height: 16px; text-align: center;
+}
+
+.h-element-home{
+	height:627px;
+}
+
+.home-element{
+	position:relative;top:-100px;
+}
+
+
+
+.sdl-app-car-hand {
+	position:relative;
+	top:-327px;
+	max-height:627px;
+}
+
+.rounded-xlg{
+	border-radius: .8rem!important;
+}
+
+.scoring__inner {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.scoring__left-item {
+  font-family: 'Formular';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 285px;
+  height: 75px;
+  margin-bottom: 22px;
+  padding: 10px 35px 10px 0;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 13px 24px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 13px 24px 0 rgba(0, 0, 0, .1);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.scoring__left-icon {
+  width: 87px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.scoring__center {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.scoring__center-decor {
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.scoring__center-img {
+  position: relative;
+  z-index: 2;
+  width: 185px;
+  height: 185px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+  border-radius: 20px;
+  background-color: #fff;
+  background-image: url("/images/group1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 149px 149px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+.scoring__right {
+  font-family: 'Formular';
+  width: 285px;
+  padding: 25px 0 20px 20px;
+  color: #000;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+.scoring__right-block {
+  margin-bottom: 17px;
+  padding: 0 20px 14px 0;
+  border-bottom: .5px solid rgba(151, 151, 151, .2);
+}
+.scoring__right-block-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.scoring__right-label {
+  font-size: 10px;
+  line-height: 11px;
+  padding: 0 0 5px;
+  color: #8e8e8e;
+}
+
+.scoring__right-score {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -.18px;
+}
+.scoring__right-user {
+  width: 52px;
+  height: 52px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.scoring__right-descr {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.text-black{
+  color: #000;
+}
+@media (max-width:350px) {
+	.bg-car-red{
+    background-size:auto;
+  }
+	.bg-wave {
+		height: 127px;
+    background-size: auto 100%;
+	}
+	
+	
+	.box-modal{
+	height:430px;
+
+	}
+	.h-element-home{
+		height:257px;
+	}
+	.sdl-app-car-hand {
+		top:-157px;
+	}
+	.sdl-h1 {font-size: 1.5rem;
+	}
+}
+@media (max-width: 1023px){
+  .scoring__left-item {
+      width: 220px;
+  }
+  .scoring__right {
+    width: 230px;
+  }
+  .bg-car-red{
+    background-size:auto;
+  }
+  }
+  
+@media (max-width: 767px){
+  .scoring__left {
+    font-size: 0;
+    line-height: 0;
+    padding: 16px 10px 21px;
+    border-radius: 6px;
+    background-color: rgba(216, 216, 216, .19);
+}
+  .scoring__left-item {
+    display: inline-block;
+    width: calc(50% - 12px);
+    height: auto;
+    min-height: 120px;
+    margin: 0 6px 12px;
+    padding: 0 10px 10px 15px;
+    vertical-align: top;
+    letter-spacing: -1px;
+  }
+  .scoring__inner {
+    display: block;
+  }
+  .scoring__center-decor:nth-child(1) {
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    width: 39px;
+    height: 82px;
+    margin: 0 0 0 -35px;
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    background-image: url("/images/decor-7.svg");
+  }
+  .scoring__center-decor:nth-child(2) {
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    width: 39px;
+    height: 82px;
+    margin: 0 0 0 -35px;
+    background-image: url("/images/decor-7.svg");
+  }
+  .scoring__center {
+    position: relative;
+    z-index: 1;
+    top: auto;
+    left: auto;
+    margin: 0;
+    padding: 59px 0 42px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+  .scoring__center-img {
+    width: 146px;
+    height: 146px;
+    margin: 0 auto 17px;
+    padding: 15px;
+    background-size: 114px 114px;
+  }
+  .scoring__right {
+    width: 100%;
+  }
+}
+@media (min-width:351px) and (max-width:576px) {
+	.sdl-h1 {font-size: 1.5rem;
+	}
+	.bg-wave {
+		height: 127px;
+    background-size: auto 100%;
+  }
+  .bg-car-red{
+    background-size:auto;
+  }
+	.box-modal{
+	height:450px;
+	
+  }
+	.h-element-home{
+		height:342px;
+	}
+	
+
+	.sdl-app-car-hand {
+		top:-157px;
+	}
+}
+@media (max-width: 373px){
+  .scoring__left {
+    padding: 16px 16px 21px;
+}
+.scoring__left-item {
+    display: block;
+    width: 100%;
+    min-height: 0;
+    margin: 0 0 12px 0;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+	.sdl-h1 {
+		font-size: 2rem;
+	}
+	.bg-wave {
+		height: 227px;
+    background-size: auto 100%;
+  }
+  .bg-car-red{
+    background-size:auto;
+  }
+	.h-element-home{
+		height:380px;
+	}
+	.home-element{
+		top: -60px;
+	}
+	
+	.sdl-app-car-hand {
+		top:-227px;
+		max-height:380px;
+	}
+}
+@media (min-width:769px) and (max-width:991px) {
+	.sdl-h1 {font-size: 2rem;
+	}
+	.h-element-home{
+		height:478px;
+  }
+  .bg-car-red{
+    background-size:auto;
+  }
+	.home-element{
+		top: -90px;
+	}
+	.sdl-app-car-hand {
+		top:-327px;
+		max-height:478px;
+	}
+	
+}
+@media (min-width:991px) and (max-width:1199px) {
+	.bg-car-red{
+    background-size:auto;
+  }
+	
+}
+
+@media (min-width: 1024px) {
+  .scoring__center-decor:nth-child(1) {
+      right: 100%;
+      bottom: 50%;
+      width: 215px;
+      height: 179px;
+      background-image: url(/images/decor-1.svg);
+  }
+  .scoring__center-decor:nth-child(2) {
+      right: 100%;
+      bottom: 50%;
+      width: 215px;
+      height: 84px;
+      background-image: url(/images/decor-2.svg);
+  }
+  .scoring__center-decor:nth-child(3) {
+    top: 50%;
+    right: 100%;
+    width: 215px;
+    height: 20px;
+    background-image: url(/images/decor-3.svg);
+  }
+  .scoring__center-decor:nth-child(4) {
+    top: 50%;
+    right: 100%;
+    width: 215px;
+    height: 117px;
+    background-image: url(/images/decor-4.svg);
+  }
+  .scoring__center-decor:nth-child(5) {
+    top: 50%;
+    right: 100%;
+    width: 215px;
+    height: 212px;
+    background-image: url(/images/decor-5.svg);
+  }
+  .scoring__center-decor:nth-child(6) {
+    top: 50%;
+    left: 100%;
+    width: 215px;
+    height: 73px;
+    background-image: url(/images/decor-6.svg);
+  }
+  
+}
+@media (min-width:1500px){
+  .bg-dealer{
+    background-size: 100%;
+  }
+  .bg-road-bridge{
+    background-size: 100%;
+  }
+  .bg-fleet{
+    background-size: 100%;
+  }
+  .bg-maker{
+    background-size: 100%;
+  }
+}
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #808080;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: white;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.btn-contact {
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  background-color: white;
+  color: rgb(29, 114, 249);
+}
+
+.btn-contact:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  background-color:  var(--success);
+}
+
+.img-app-journey {
+  float: left;
+  position: absolute;
+  height: 800px;
+  z-index: 1;
+}
+
+.img-velocity {
+  max-width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.app-element-score {
+  max-width: 80%;
+}
+
+.bg-parking {
+  height:905px;
+	background-image: url('/images/parking.jpg'); 
+	background-position: 50% 50%; 
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	box-shadow: none; 
+	border-radius: 0px; 
+	opacity: 1;
+}
+
+.app-hand-remote-control {
+  position: absolute;
+  right: 500px;
+  height: 724px;
+  bottom: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.app-hand-remote-control:hover {
+  animation: shake 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.car-driver-yellow {
+  position: absolute;
+  max-width: 60%;
+  z-index: 0;
+  transition: all 1000ms ease;
+  transition-delay: 1s; /* delays for 1 second */
+  -webkit-transition-delay: 1s; /* for Safari & Chrome */
+}
+
+.car-driver-yellow:hover {
+
+  content: url('/images/car-driver-yellow-light.png'); 
+}
+
+@media (max-width:350px) {
+  .img-app-journey {
+    position: absolute;
+    top: 350px;
+    height: 200px;
+    z-index: 1;
+  }
+  .driver-description {
+    text-align: center!important;
+  }
+  .bg-parking {
+    background-image: url(/images/parking.jpg);
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    border-radius: 0px;
+    opacity: 1;
+  }
+  .car-driver-yellow {
+    position: absolute;
+    max-width: 90%;
+    margin-left: 15px;
+    z-index: 0;
+  }
+  .app-hand-remote-control {
+    position: relative;
+    top:3px;
+    left: 75px;
+    height: 350px;
+    z-index: 1;
+  }
+}
+  
+@media (min-width:351px) and (max-width:576px) {
+    .bg-parking {
+      height: 650px;
+      background-image: url(/images/parking.jpg);
+      background-position: 50% 50%;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      box-shadow: none;
+      border-radius: 0px;
+      opacity: 1;
+    }
+    .car-driver-yellow{
+      left: 10%;
+      max-width: 80%;
+    }
+    .img-app-journey{
+      position: absolute;
+      top: 325px;
+      left: 50px;
+      height: 220px;
+      z-index: 1;
+    }
+    .driver-description {
+      text-align: center!important;
+    }
+    .app-hand-remote-control {
+      left: 35%;
+      bottom: 0px;
+      height: 220px;
+      z-index: 1;
+    }
+    .section-footer {
+      padding-top: 1px;
+      background: white;
+      position: relative;
+      z-index: 2;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+  .bg-parking{
+    margin-bottom:-200px;
+ 
+  }
+  .footer-text{
+    font-size: 8px;
+  }
+  .app-hand-remote-control {
+    position: absolute;
+    right: 180px;
+    height: 423px;
+    z-index: 1;
+  }
+  
+  .app-hand-remote-control:hover {
+    animation: shake 15s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+  .car-driver-yellow {
+    position: absolute;
+    margin-left: 75px;
+    margin-right: auto;
+    max-width: 75%;
+    z-index: 0;
+  }
+  
+  .car-driver-yellow:hover {
+    content: url('/images/car-driver-yellow-light.png'); 
+  }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+
+}
+
+@media (min-width:991px) and (max-width:1199px) {
+  .app-hand-remote-control {
+    position: absolute;
+    right: 225px;
+    height: 572px;
+    max-width: 50%;
+    z-index: 1;
+  }
+  
+  .app-hand-remote-control:hover {
+    animation: shake 15s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+  .car-driver-yellow {
+    position: absolute;
+    margin-left: 100px;
+    margin-right: auto;
+    max-width: 75%;
+    z-index: 0;
+  }
+  
+  .car-driver-yellow:hover {
+  
+    content: url('/images/car-driver-yellow-light.png'); 
+  }
+}
